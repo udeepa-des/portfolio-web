@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "To-Do App",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "The To-Do app, created using React, allows users to add, complete, and delete tasks with an intuitive interface for efficient task management. Its source code is hosted on Github. By using this app, users can improve their productivity and organize their daily tasks with ease.",
+    image: "./todo-app.gif",
+    link: "https://github.com/udeepa-des/todo-app.git",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Weather App",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "The weather app provides current and future weather conditions for any city in the world, with a search bar for users to input their desired location. The app's interface is user-friendly and its source code is available on Github for easy access and contribution.",
+    image: "./weather-app.gif",
+    link: "https://github.com/udeepa-des/login-app.git",
   },
   {
     title: "DevChat",
