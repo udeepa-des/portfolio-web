@@ -16,11 +16,11 @@ export const projects = [
     link: "https://github.com/udeepa-des/login-app.git",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Code Learner",
+    subtitle: "Java and SQLite",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+      "Our Android app teaches the basics of programming languages through a user-friendly interface, interactive features, and comprehensive lessons. Whether you're a student or self-taught, our app can help you start your coding journey. Note: this video is for assignment purposes only",
+    image: "./CodeLearner.gif",
     link: "https://reactbootcamp.com",
   },
   {
