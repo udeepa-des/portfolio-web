@@ -21,15 +21,15 @@ export const projects = [
     description:
       "Our Android app teaches the basics of programming languages through a user-friendly interface, interactive features, and comprehensive lessons. Whether you're a student or self-taught, our app can help you start your coding journey. Note: this video is for assignment purposes only",
     image: "./CodeLearner.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/thusharathiwanka/codelearner.git",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "ABC Institute Timetable Management",
+    subtitle: "C# and MSSQL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "We built a Windows app for generating custom timetables based on user input. Our program's algorithm optimizes scheduling and minimizes conflicts for efficient planning. Users can manage their time and increase productivity with ease. Note: Only my contribution is shown in the video",
+    image: "./ABC Institute.gif",
+    link: "https://github.com/PasinduManeka/ITPM-Institute.git",
   },
 ];
 
