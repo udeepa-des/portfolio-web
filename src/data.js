@@ -36,18 +36,13 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
+      "During my internship, I had the pleasure of working under the guidance of Mr. Dilan Chathuranga, who was the Lead Quality Assurance Engineer at iTerminal Technologies at the time. Mr. Chathuranga provided me with valuable mentorship and support throughout my internship, helping me to develop my skills and gain practical experience. His expertise in quality assurance and software development made a significant impact on my professional growth and learning experience. It was an honor to work alongside such a talented and dedicated individual.",
+    image: "https://lh3.googleusercontent.com/a-/ACB-R5TgF7EksKOrixb0h-dZEP87Z3UGuYklEVsGAlzZ=s80-p-k-rw-no",
+    name: "Dilan Chathuranga",
+    company: "Epic",
+    telephone: "076 650 0626",
+    email: "dilanchathuranga94@gmail.com"
+  }
 ];
 
 export const skills = [
