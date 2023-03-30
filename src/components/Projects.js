@@ -12,9 +12,9 @@ export default function Projects() {
             My projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          Here are some of my recent projects that showcase my skills and expertise in software development.
-          From building interactive web applications to designing elegant user interfaces,
-          each project represents a unique challenge and an opportunity for me to learn and grow
+            Here are some of my recent projects that showcase my skills and expertise in software development.
+            From building interactive web applications to designing elegant user interfaces,
+            each project represents a unique challenge and an opportunity for me to learn and grow
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

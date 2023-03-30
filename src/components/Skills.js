@@ -12,8 +12,8 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          Below you will find a list of my skills and technologies that I have experience with.
-          These are the tools that I use to create effective solutions and deliver high-quality results.
+            Below you will find a list of my skills and technologies that I have experience with.
+            These are the tools that I use to create effective solutions and deliver high-quality results.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

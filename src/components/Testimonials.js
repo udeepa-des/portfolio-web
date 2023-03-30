@@ -10,8 +10,9 @@ export default function Testimonials() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
           References
         </h1>
-        <div className="flex flex-wrap m-4">
-          {testimonials.map((testimonial) => (
+        <div className="flex justify-center">
+          <div className="max-w-2xl mx-auto flex flex-wrap m-4">
+            {testimonials.map((testimonial) => (
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <TerminalIcon className="block w-8 text-gray-500 mb-4" />
                 <p className="leading-relaxed mb-6">{testimonial.quote}</p>
@@ -37,8 +38,10 @@ export default function Testimonials() {
                   </span>
                 </div>
               </div>
-          ))}
+            ))}
+          </div>
         </div>
+
       </div>
     </section>
   );

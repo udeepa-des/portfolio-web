@@ -57,5 +57,23 @@ export const skills = [
   "C++",
   "PHP",
   "HTML & CSS",
-  "Python",  
+  "Python",
 ];
+
+export const education = [
+  {
+    degree: "BSc (Hons) in Information Technology specializing in Information Technology",
+    institute: "Sri Lanka Institute of Information Technology (SLIIT)",
+    year: "2023/03"
+  },
+  {
+    degree: "Advanced Level",
+    institute: "R/Balangoda Ananda Maithreya Central College",
+    year: "2017",
+  },
+  {
+    degree: "Ordinary Level",
+    institute: "R/Balangoda Ananda Maithreya Central College",
+    year: "2014",
+  }
+]

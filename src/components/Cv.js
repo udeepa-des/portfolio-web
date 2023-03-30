@@ -1,4 +1,4 @@
-import { BookOpenIcon, DocumentDownloadIcon, DocumentSearchIcon, DocumentTextIcon } from '@heroicons/react/solid';
+import { DocumentDownloadIcon, DocumentTextIcon } from '@heroicons/react/solid';
 import React from 'react';
 
 export default function Cv({ CvUrl, ClUrl }) {
