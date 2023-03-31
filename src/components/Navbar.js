@@ -5,17 +5,24 @@ export default function Navbar() {
   return (
     <header className="bg-gray-900 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
+        <div className="flex items-center title-font font-medium text-white mb-4 md:mb-0">
+          <a href="./profile-pic.png" target="_blank">
+            <img
+              alt="Udeepa Desarana profile picture"
+              src="./profile-pic.png"
+              className="w-12 rounded-full flex-shrink-0"
+            />
+          </a>
           <a href="#about" className="ml-3 text-xl">
             Udeepa Desarana
           </a>
-        </a>
+        </div>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a href="#education" className="mr-5 hover:text-white duration-500">
             Education
           </a>
           <a href="#projects" className="mr-5 hover:text-white duration-500">
-            Past Work
+            Projects
           </a>
           <a href="#skills" className="mr-5 hover:text-white duration-500">
             Skills

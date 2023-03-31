@@ -1,5 +1,5 @@
 import React from "react";
-import { AcademicCapIcon, BookOpenIcon, OfficeBuildingIcon, PencilAltIcon, PencilIcon, TerminalIcon } from "@heroicons/react/solid";
+import { AcademicCapIcon, BookOpenIcon } from "@heroicons/react/solid";
 import { education } from "../data";
 
 export default function Education() {
