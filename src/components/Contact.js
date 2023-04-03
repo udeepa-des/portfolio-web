@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import Alert from './alert';
 
 export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  const [alert, setAlert] = useState({ message: '', type: '' });
+
+  const handleAlert = (message, type) => {
+    setAlert({ message, type });
+  };
 
   function encode(data) {
     return Object.keys(data)
@@ -20,8 +26,8 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Email sent successfully!"))
-      .catch((error) => alert(error));
+      .then(() => handleAlert('Email Sent !', 'success'))
+      .catch((error) => handleAlert('Something went wrong !', 'danger'));
 
     e.target.reset();
   }
@@ -89,6 +95,7 @@ export default function Contact() {
             Interested in working together? Let's connect! Please fill out the form below to get in touch with me about potential software engineering vacancies or other opportunities. I'm always eager to collaborate on new projects and bring fresh ideas to the table. Looking forward to hearing from you!
           </p>
           <div className="relative mb-4">
+            {alert.message && <Alert message={alert.message} type={alert.type} />}
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
