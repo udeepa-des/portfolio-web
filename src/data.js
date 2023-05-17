@@ -35,14 +35,18 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "During my internship, I had the pleasure of working under the guidance of Mr. Dilan Chathuranga, who was the Lead Quality Assurance Engineer at iTerminal Technologies at the time. Mr. Chathuranga provided me with valuable mentorship and support throughout my internship, helping me to develop my skills and gain practical experience. His expertise in quality assurance and software development made a significant impact on my professional growth and learning experience. It was an honor to work alongside such a talented and dedicated individual.",
-    image: "https://lh3.googleusercontent.com/a-/ACB-R5TgF7EksKOrixb0h-dZEP87Z3UGuYklEVsGAlzZ=s80-p-k-rw-no",
-    name: "Dilan Chathuranga",
+    name: "Mr. Dilan Chathuranga",
+    occupation: "Lead QA Engineer",
     company: "Epic",
-    telephone: "076 650 0626",
     email: "dilanchathuranga94@gmail.com"
+  },
+  {
+    name: "Mr. Sasitha Anuranga",
+    occupation: "AI Engineer - Digital Innovation",
+    company: "Softlogic Capital PLC",
+    email: "sasitha.anuranga@softlogiccapital.lk"
   }
+
 ];
 
 export const skills = [
