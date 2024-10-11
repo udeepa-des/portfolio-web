@@ -21,7 +21,7 @@ export default function Testimonials() {
                       {testimonial.name}
                     </span>
                     <span className="text-gray-500 text-sm">
-                      {testimonial.occupation}
+                      {testimonial.mobile}
                     </span>
                     <span className="text-gray-500 text-sm uppercase">
                       {testimonial.company}
