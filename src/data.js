@@ -35,16 +35,16 @@ export const projects = [
 
 export const testimonials = [
   {
-    name: "Mr. Dilan Chathuranga",
-    occupation: "Lead QA Engineer",
-    company: "Epic",
-    email: "dilanchathuranga94@gmail.com"
+    name: "Mr. Hasintha Ranaweera",
+    mobile: "+94 70 336 0098",
+    company: "Panaceata",
+    email: "hasintha.r@panaceata.com"
   },
   {
-    name: "Mr. Sasitha Anuranga",
-    occupation: "AI Engineer - Digital Innovation",
-    company: "Softlogic Capital PLC",
-    email: "sasitha.anuranga@softlogiccapital.lk"
+    name: "Mr. Dilantha Wijesekara",
+    mobile: "+94 71 163 999",
+    company: "Panaceata",
+    email: "dilantha.w@panaceata.com"
   }
 
 ];
