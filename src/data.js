@@ -53,6 +53,7 @@ export const skills = [
   "Time Management",
   "Hard Working",
   "Team Work",
+  "Adaptability",
   "JavaScript",
   "Java",
   "React",
@@ -60,12 +61,19 @@ export const skills = [
   "AWS",
   "Azure",
   "Node.js",
+  "NestJS",
+  "SQL",
+  "MySql",
+  "PostgreSQL",
   "C",
   "C#",
   "C++",
   "PHP",
   "HTML & CSS",
   "Python",
+  "Selenium",
+  "Bootstrap",
+  "Git"
 ];
 
 export const education = [
