@@ -11,8 +11,8 @@ import 'tailwindcss/tailwind.css';
 import { useState } from "react";
 
 export default function App() {
-  const [CvUrl] = useState('./Udeepa desarana CV.pdf');
-  const [ClUrl] = useState('./Udeepa Desarana Cover letter.pdf');
+  const [CvUrl] = useState('./CV - Udeepa Ginigaddara.pdf');
+  const [ClUrl] = useState('./Cover Letter - Udeepa Ginigaddara.pdf');
 
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
