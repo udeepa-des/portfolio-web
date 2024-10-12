@@ -10,10 +10,9 @@ export default function About() {
             <br className="hidden lg:inline-block" />I'm Udeepa Desarana.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Welcome to my portfolio! As a recent graduate with a BSc (Hons) in Information Technology specializing in Information Technology,
-            I am excited to pursue a career in software engineering. With a passion for coding and a strong foundation in programming languages and software development methodologies,
-            I am eager to apply my skills and knowledge to real-world projects. This portfolio showcases some of my best work and demonstrates my abilities as a software engineer.
-            I am currently seeking an internship opportunity to further develop my skills and contribute to a dynamic team.
+            Welcome to my portfolio! Results-driven Associate Full-stack Developer, with a strong foundation in software development and project management. Skilled in various
+            programming languages and technologies, I excel in fast-paced environments, delivering innovative solutions with precision. A collaborative team
+            player with strong communication skills, I’m passionate about contributing to impactful software projects
           </p>
           <div className="flex justify-center">
             <a
