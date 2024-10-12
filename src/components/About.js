@@ -12,7 +12,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed">
             Welcome to my portfolio! Results-driven Associate Full-stack Developer, with a strong foundation in software development and project management. Skilled in various
             programming languages and technologies, I excel in fast-paced environments, delivering innovative solutions with precision. A collaborative team
-            player with strong communication skills, I’m passionate about contributing to impactful software projects
+            player with strong communication skills, I’m passionate about contributing to impactful software projects.
           </p>
           <div className="flex justify-center">
             <a
