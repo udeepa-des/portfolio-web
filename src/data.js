@@ -42,7 +42,7 @@ export const testimonials = [
   },
   {
     name: "Mr. Dilantha Wijesekara",
-    mobile: "+94 71 163 999",
+    mobile: "+94 71 163 9991",
     company: "Panaceata",
     email: "dilantha.w@panaceata.com"
   }
